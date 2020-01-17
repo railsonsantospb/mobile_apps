@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1048456154186",
+    "firebase_url": "https://suportecliente-c551b.firebaseio.com",
+    "project_id": "suportecliente-c551b",
+    "storage_bucket": "suportecliente-c551b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048456154186:android:3f5192377659e250",
+        "android_client_info": {
+          "package_name": "com.suporte.amigo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048456154186-o4mnovbpkf1roanjnqiqqgqqqifipnsf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.suporte.amigo",
+            "certificate_hash": "9e64966b24217ed515b8fa7eb7a3c269b1826630"
+          }
+        },
+        {
+          "client_id": "1048456154186-hnkn4nlcml23ukds7ijac7fvh77cuen3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp2hLSl54FGO1XI4T-1BUig0DC3AOe3DU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048456154186-hnkn4nlcml23ukds7ijac7fvh77cuen3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

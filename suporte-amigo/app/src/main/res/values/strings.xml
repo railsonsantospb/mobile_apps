@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Suporte Amigo</string>
+
+    <array name="array_name">
+        <item name="rock">Em Manutenção</item>
+        <item name="pop">Manutenção Finalizada</item>
+    </array>
+
+    <string name="login">Dados Necessários</string>
+    <string name="login_label">Confirmar</string>
+    <string name="nome">Nome do Proprietário</string>
+    <string name="marca">Marca do Aparelho</string>
+    <string name="modelo">Número do Aparelho</string>
+    <string name="data">Inserir Data de Entrada</string>
+    <string name="telefone">Telefone do Proprietário</string>
+    <string name="select">Situação</string>
+    <string name="descricao">Descreva o Problema</string>
+    <string name="title_activity_cadastro">CadastroActivity</string>
+    <string name="title_activity_update">UpdateActivity</string>
+    <string name="title_activity_search">Search</string>
+</resources>
