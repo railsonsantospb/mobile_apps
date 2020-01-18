@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "704006439657",
+    "firebase_url": "https://catador-amigo-c9184.firebaseio.com",
+    "project_id": "catador-amigo-c9184",
+    "storage_bucket": "catador-amigo-c9184.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704006439657:android:96df3c9c1c7984b7",
+        "android_client_info": {
+          "package_name": "com.amigo.catador"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704006439657-jl87hu64mqeenenh3u00ros4nplc4mlt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amigo.catador",
+            "certificate_hash": "c6f1db846f33b57e383f4b8ff8823ada334b82cc"
+          }
+        },
+        {
+          "client_id": "704006439657-ckmduh7nokjiq2rbe50jogqkg15jr0ms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amigo.catador",
+            "certificate_hash": "1aa7ca73cda39f44bd8cc55601706f334136af2a"
+          }
+        },
+        {
+          "client_id": "704006439657-d5qkrn7rc54jbksg4bpbu393gk08d97u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amigo.catador",
+            "certificate_hash": "9d892c6e91f62911f29881be17ba4e7d49088658"
+          }
+        },
+        {
+          "client_id": "704006439657-48g2402l5q4ifp3bvpd4us0mqfuj03i5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amigo.catador",
+            "certificate_hash": "1abd77103de7059f96814a1fe9d3965193398fb4"
+          }
+        },
+        {
+          "client_id": "704006439657-j32n4jajpjh0ki9qg9teva4galqvk8rm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amigo.catador",
+            "certificate_hash": "640932fd437efbcbbadc97dcda1775e73c993450"
+          }
+        },
+        {
+          "client_id": "704006439657-riotfb77c9h484717bcf39kbvv642s0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amigo.catador",
+            "certificate_hash": "fec59f0266be59544fdae964fa61846af1234b4a"
+          }
+        },
+        {
+          "client_id": "704006439657-1989rl1cfvs56liregkheo02h4to4nge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amigo.catador",
+            "certificate_hash": "d05add24c97be6ebf365b4479081fd5e9dbcf9c6"
+          }
+        },
+        {
+          "client_id": "704006439657-gnuifl06a4897muljsk6qmir09v0hdok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amigo.catador",
+            "certificate_hash": "5c6debf329524d8cb1752d1a33bdb27712f91fa7"
+          }
+        },
+        {
+          "client_id": "704006439657-3dtc6fkbnlancgs1c33strte3jmfcgvp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amigo.catador",
+            "certificate_hash": "7036a15709893a76cb902365b2cbb821e8d14a06"
+          }
+        },
+        {
+          "client_id": "704006439657-6pv7ubggdimav5stfglt6bpo2312k4jm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv8IoTpGGylgxOduqNNePz1fnsZGxgxXY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704006439657-6pv7ubggdimav5stfglt6bpo2312k4jm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

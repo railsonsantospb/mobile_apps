@@ -1,0 +1,94 @@
+Understanding Application States in Flutter
+
+This example is all about understanding Application States in flutter. Although it seems simple 
+its very important.
+
+If you are an Android or iOS Developer, you may be familier with these concepts and callbacks.
+
+Andrid has onResume, onPause etc callbacks, iOS has viewWillDisappear,viewDidAppear, didFinishLaunchingWithOptions etc callback functions to acheive this.
+
+These funtions are useful most of the times when we want to save something when Application goes to background or is coming to ForeGround.
+
+so Let's Start...
+
+Flutter acheives similar functionality with the help of a class called WidgetsBindingObserver.
+Then we can override the method 'didChangeAppLifecycleState' to get the Application States.
+Make sure you add the observer and remove the observer when it is not needed.
+
+The simple code below explains all these.
+
+[java]
+import 'package:flutter/material.dart';
+
+class AppStateDemo extends StatefulWidget {
+  AppStateDemo() : super();
+
+  final String title = "AppState Demo";
+
+  @override
+  AppStateDemoState createState() => AppStateDemoState();
+}
+
+class AppStateDemoState extends State<AppStateDemo>
+    with WidgetsBindingObserver {
+  //
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    WidgetsBinding.instance.removeObserver(this);
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    super.didChangeAppLifecycleState(state);
+    switch (state) {
+      case AppLifecycleState.inactive:
+        print("App Inactive");
+        break;
+      case AppLifecycleState.paused:
+        print("App Paused");
+        break;
+      case AppLifecycleState.resumed:
+        print("App Resumed");
+        break;
+      case AppLifecycleState.suspending:
+        print("App Suspending");
+        break;
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: Center(
+        child: Text(
+          "App State Demo",
+          style: TextStyle(fontSize: 25.0),
+        ),
+      ),
+    );
+  }
+}
+[/java]
+
+When your application goes to background, the 'Inactive' is triggered. When it is
+completely minimised, 'Paused' will be triggered. and when it comes to ForeGround, the 'Resumed' will 
+be triggered. Suspended will be triggered when the OS actually suspends the application.
+
+Watch the youtube tutorial to see it in action.
+
+Thanks for reading.
+Subscribe to my youtube channel for more videos.
+
+
+
+

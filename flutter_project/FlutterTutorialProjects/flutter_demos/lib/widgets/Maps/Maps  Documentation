@@ -1,0 +1,13 @@
+Steps
+
+Get API Keys for Android and iOS
+
+Android:
+https://developers.google.com/maps/documentation/android-sdk/signup
+
+Add Key to AndroidManifest
+
+iOS
+https://developers.google.com/maps/documentation/ios-sdk/get-api-key
+
+

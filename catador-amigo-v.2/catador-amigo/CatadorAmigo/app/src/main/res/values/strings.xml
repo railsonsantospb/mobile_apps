@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Catador Amigo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Seja Bem-Vindo!</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+
+    <string name="show_dialog">Show dialog</string>
+    <string name="login">Dados Necessários</string>
+    <string name="email">Nome Completo</string>
+    <string name="password">Endereço</string>
+    <string name="telefone">Número do WhatsApp</string>
+    <string name="bairro">Bairro</string>
+    <string name="descricao">Descrição da Doação: Nome, Quantidade e Peso</string>
+    <string name="select">Selecione uma das opções abaixo:</string>
+    <string name="login_label">Compartilhar</string>
+    <string name="success_login_msg">Dados enviados com Sucesso!</string>
+    <string name="error_login_msg">Por favor, preencha todos os Campos!</string>
+    <string name="info">
+
+        Ao lado esquerdo superior do aplicativo você terá acessor as informaçãos
+        necessárias para poder nos ajudar a manter a natureza mais limpa!
+
+    </string>
+
+    <string name="q1">1. Ao fazer compras no supermercado:</string>
+    <string name="q1_1">Compro tudo que tenho vontade, sem prestar atenção no preço, na marca ou na embalagem;</string>
+    <string name="q1_2">Uso apenas o preço como critério de escolha;</string>
+    <string name="q1_3">Presto atenção se os produtos de uma determinada marca são ligados a alguma empresa que não respeita o meio ambiente ou questões sociais;</string>
+    <string name="q1_4">Procuro considerar preço e qualidade, além de escolher produtos que venham em embalagens recicláveis e que respeitem critérios ambientais e sociais.</string>
+
+    <string name="q2">2. Entre os alimentos que normalmente você consome, que quantidade é pré-preparada, embalada ou importada?</string>
+    <string name="q2_1">Quase todos;</string>
+    <string name="q2_2">Metade;</string>
+    <string name="q2_3">Um quarto;</string>
+    <string name="q2_4">Muito poucos. A maior parte dos alimentos que consumo não é pré-preparada, nem embalada, tem origem orgânica e é produzida na região onde vivo.</string>
+
+
+    <string name="q3">3. O que acontece com o lixo produzido na sua casa?</string>
+    <string name="q3_1">Não me preocupo muito com o lixo;</string>
+    <string name="q3_2">Tudo é colocado em sacos recolhidos pelo lixeiro, mas não faço a menor idéia para onde vai;</string>
+    <string name="q3_3">O que é reciclável é separado;</string>
+    <string name="q3_4">O lixo seco é direcionado à reciclagem e o lixo orgânico, encaminhado para a compostagem (transformação em adubo).</string>
+
+
+    <string name="q4">4. Que eletrodomésticos você utiliza (escolha a opção que mais se pareça com a situação de sua casa)?</string>
+    <string name="q4_1">Geladeira, freezer, máquina de lavar roupa/ tanquinho e forno de microondas;</string>
+    <string name="q4_2">Geladeira e máquina de lavar roupa/tanquinho;</string>
+    <string name="q4_3">Geladeira e forno microondas;</string>
+    <string name="q4_4">Geladeira.</string>
+
+
+    <string name="q5">5. Você considera, na sua escolha de compras de eletrodomésticos e lâmpadas, informações referentes à eficiência energética do produto (se o produto consome menos energia).</string>
+    <string name="q5_1">Não. Compro sempre as lâmpadas e os eletrodomésticos que estiverem mais baratos;</string>
+    <string name="q5_2">Utilizo lâmpadas frias, mas não levo em consideração a eficiência energética de eletrodomésticos;</string>
+    <string name="q5_3">Compro eletrodomésticos que consomem menos energia e utilizo lâmpadas incandescentes (amarelas);</string>
+    <string name="q5_4">Sim. Só utilizo lâmpadas frias e compro os eletrodomésticos que consomem menos energia.</string>
+
+
+    <string name="q6">6. Você deixa luz, aparelhos de som, computadores ou televisão ligados quando não estão sendo utilizados?</string>
+    <string name="q6_1">Sim. Deixo luzes acesas, computador e tv ligados, mesmo quando não estou no ambiente ou utilizando-os;</string>
+    <string name="q6_2">Deixo a luz dos cômodos ligada quando sei que em alguns minutos vou voltar ao local;</string>
+    <string name="q6_3">Deixo o computador ligado, mas desligo o monitor quando não estou utilizando;</string>
+    <string name="q6_4">Não. Sempre desligo os aparelhos e lâmpadas quando não estou utilizando, ou deixo o computador em estado de hibernação (stand by).</string>
+
+
+    <string name="q7">7. Quantas vezes por semana, em média, você liga o ar condicionado em casa ou no trabalho?</string>
+    <string name="q7_1">Praticamente todos os dias;</string>
+    <string name="q7_2">Entre três e quatro vezes;</string>
+    <string name="q7_3">Entre uma e duas vezes por semana;</string>
+    <string name="q7_4">Não tenho ar condicionado.</string>
+
+
+    <string name="q8">8. Quanto tempo você leva, em média, tomando banho diariamente?</string>
+    <string name="q8_1">Mais de 20 minutos;</string>
+    <string name="q8_2">Entre 10 e 20 minutos;</string>
+    <string name="q8_3">Entre 10 e 5 minutos;</string>
+    <string name="q8_4">Menos de 5 minutos.</string>
+
+
+    <string name="q9">9. Quando você escova os dentes:</string>
+    <string name="q9_1">A torneira permanece aberta o tempo todo;</string>
+    <string name="q9_2">A torneira é aberta apenas para molhar a escova e na hora de enxaguar a boca.</string>
+
+
+    <string name="q10">10. Quantos habitantes moram em sua cidade?</string>
+    <string name="q10_1">Acima de 500 mil pessoas;</string>
+    <string name="q10_2">De 100 mil a 500 mil pessoas;</string>
+    <string name="q10_3">De 20 mil a 100 mil pessoas;</string>
+    <string name="q10_4">Menos de 20 mil pessoas.</string>
+
+
+    <string name="q11">11. Quantas pessoas vivem na sua casa ou apartamento?</string>
+    <string name="q11_1">1 pessoa;</string>
+    <string name="q11_2">2 pessoas;</string>
+    <string name="q11_3">3 pessoas;</string>
+    <string name="q11_4">4 pessoas ou mais.</string>
+
+
+    <string name="q12">12. Qual é a área da sua casa/apartamento?</string>
+    <string name="q12_1">170 metros quadrados ou mais;</string>
+    <string name="q12_2">De 100 a 170 metros quadrados (3 quartos);</string>
+    <string name="q12_3">De 50 a 100 metros quadrados (2 quartos);</string>
+    <string name="q12_4">50 metros quadrados ou menos (1 quarto).</string>
+
+
+    <string name="q13">13. Com que freqüência você consome produtos de origem animal (carne, peixe, ovos, laticínios)?</string>
+    <string name="q13_1">Como carne todos os dias;</string>
+    <string name="q13_2">Como carne uma ou duas vezes por semana;</string>
+    <string name="q13_3">Como carne raramente, mas ovos/laticínios quase todos os dias;</string>
+    <string name="q13_4">Nunca (vegetariano).</string>
+
+
+    <string name="q14">14. Qual o tipo de transporte que você mais utiliza?</string>
+    <string name="q14_1">Carro é meu único meio de transporte e, na maioria das vezes, ando sozinho;</string>
+    <string name="q14_2">Tenho carro, mas procuro fazer a pé os percursos mais curtos e privilegio o uso de transporte coletivo sempre que possível;</string>
+    <string name="q14_3">Não tenho carro e uso transporte coletivo;</string>
+    <string name="q14_4">Não tenho carro, uso transporte coletivo quando necessário, mas ando muito a pé ou de bicicleta.</string>
+
+
+    <string name="q15">15. Por ano, quantas horas você gasta andando de avião?</string>
+    <string name="q15_1">Acima de 50 horas;</string>
+    <string name="q15_2">25 horas;</string>
+    <string name="q15_3">10 horas;</string>
+    <string name="q15_4">Nunca ando de avião.</string>
+
+
+    <string name="state_happy">Se a sua pegada ecológica ficou nesta faixa, parabéns! Seu estilo vida leva em conta a saúde do planeta! Você sabe equilibrar o uso dos recursos com sabedoria. Que tal mobilizar mais pessoas e partilhar sua experiência? Você pode ajudar o nosso planeta indo a sede da Afink-Araruna solicitor uma muda e plantar levando adiante seu estilo de vida!</string>
+    <string name="state_sad">Sua pegada está um pouco acima da capacidade do planeta. Vale a pena reavaliar algumas opções do seu cotidiano. Algumas mudanças e ajustes podem levá-lo a um estilo de vida mais sustentável, que traga menos impactos à Natureza. Você deve plantar uma árvore e fazer uma doação de uma muda a seu vizinho, dirija-se até a Afink e solicite suas mudas!</string>
+    <string name="state_cryze">de 45 à 66 Se todos no planeta tivessem um estilo de vida como o seu, seriam necessárias três Terras. Neste ritmo o planeta não vai agüentar! Que tal fazer uma reavaliação dos seus hábitos cotidianos hoje mesmo? Plante uma árvore e doe três mudas a seus amigos e familiars, dirija-se até a Afink e solicite suas mudas!</string>
+    <string name="state_cry">de 67 à 88	Alerta total! Sua pegada está entre os padrões mais insustentáveis do mundo! É URGENTE reavaliar seu jeito de viver. Seu padrão de consumo e hábitos de vida estão causando danos à vida na Terra e ameaçando o futuro. Mas não desanime, nunca é tarde para começar a mudar. Mobilize amigos e faça o plantio de dez mudas, dirija-se até a Afink e solicite suas mudas!</string>
+
+
+    <string-array name="array_name">
+        <item>Metal</item>
+        <item>Plástico</item>
+        <item>Papel</item>
+        <item>Vidro</item>
+        <item>Orgânico</item>
+        <item>Roupas/Móveis/Livros</item>
+    </string-array>
+</resources>

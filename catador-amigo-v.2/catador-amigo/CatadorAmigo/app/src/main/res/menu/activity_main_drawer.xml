@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_info_details"
+            android:title="INÍCIO" />
+        <item
+            android:id="@+id/nav_ecopontos"
+            android:icon="@drawable/ic_menu_mapmode"
+            android:title="ECOPONTOS" />
+        <!--<item-->
+            <!--android:id="@+id/nav_gallery"-->
+            <!--android:icon="@drawable/ic_menu_mapmode"-->
+            <!--android:title="Inserir Localização" />-->
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_mapmode"
+            android:title="ENVIAR LOCALIZAÇÃO" />
+
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_menu_info_details"
+            android:title="PEGADA ECOLÓGICA" />
+    </group>
+
+    <item android:title="Comunicado">
+        <menu>
+            <item
+                android:id="@+id/nav_view"
+                android:icon="@drawable/ic_menu_info_details"
+                android:title="PRIVACIDADE" />
+
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/ic_menu_info_details"
+                android:title="SOBRE" />
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_info_details"
+                android:title="SAIR" />
+
+        </menu>
+    </item>
+
+
+
+</menu>

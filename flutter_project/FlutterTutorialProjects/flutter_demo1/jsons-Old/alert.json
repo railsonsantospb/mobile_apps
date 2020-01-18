@@ -1,0 +1,19 @@
+{
+    "country": "US",
+    "nThumbsUp": 0,
+    "city": "Philadelphia, PA",
+    "reportRating": 0,
+    "confidence": 1,
+    "reliability": 9,
+    "type": "ROAD_CLOSED",
+    "uuid": "d1d85bee-f799-3aeb-a5ea-2e99b236afed",
+    "magvar": 0,
+    "subtype": "ROAD_CLOSED_EVENT",
+    "street": "Island Ave",
+    "reportDescription": "",
+    "location": {
+        "x": -75.243226,
+        "y": 39.913112
+    },
+    "pubMillis": 1564583592000
+}

@@ -1,0 +1,20 @@
+Isolates are similar to threads in Unix
+Does not share memory like threads
+Communication between Isolates are done through messages
+
+A Flutter app is Single Isolate thread App.
+It has its own event loop and Queue.
+
+Isolates helps to execute code in a different process.
+
+If we want to execute a heavy operation and doesn't want to block the 
+UI thread, we need to use isolates.
+
+Two ways to use isolates
+
+1. Using the compute function.
+2. Using SendPort and ReceivePort for message passing.
+
+
+
+
